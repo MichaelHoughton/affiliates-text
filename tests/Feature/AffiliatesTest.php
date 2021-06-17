@@ -11,6 +11,6 @@ class AffiliatesTest extends TestCase
     {
         $this->get('/')
             ->assertStatus(200)
-            ->assertSee('something');
+            ->assertSee('Kirandeep Browning');
     }
 }
